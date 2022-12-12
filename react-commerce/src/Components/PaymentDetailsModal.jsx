@@ -43,7 +43,7 @@ const PaymentDetailsModal = ({ itemsPrice, content, setContent }) => {
             <div>
               <label htmlFor="firstName"></label>
               <input
-                className="w-full indent-2 py-1 my-1"
+                className="w-full text-black indent-2 py-1 my-1"
                 type="text"
                 name="firstName"
                 placeholder="First Name"
@@ -54,7 +54,7 @@ const PaymentDetailsModal = ({ itemsPrice, content, setContent }) => {
             <div>
               <label htmlFor="lastName"></label>
               <input
-                className="w-full indent-2 py-1 my-1"
+                className="w-full text-black indent-2 py-1 my-1"
                 type="text"
                 name="lastName"
                 placeholder="Last Name"
@@ -65,7 +65,7 @@ const PaymentDetailsModal = ({ itemsPrice, content, setContent }) => {
             <div>
               <label htmlFor="email"></label>
               <input
-                className="w-full indent-2 py-1 my-1"
+                className="w-full text-black indent-2 py-1 my-1"
                 type="email"
                 name="email"
                 value={email}

@@ -28,24 +28,24 @@ const ProductDesc = () => {
           <h1 className="text-center font-bold text-2xl">Product Details</h1>
         </div>
       </Link>
-      <div className="flex items-center gap-5 p-4">
-        <img src={single.image_url} alt="" className="h-screen object-cover w-[500px]" />
+      <div className="md:flex block items-center gap-5 p-4">
+        <img src={single?.image_url} alt="" className="h-screen object-cover w-[500px]" />
         <div>
           <p className="text-secondary font-bold text-xl">
             <span className="text-primary font-semibold text-lg">
               Product Name:
             </span>{" "}
-            {single.name}
+            {single?.name}
           </p>
           <p className="text-secondary font-bold text-xl">
             <span className="text-primary font-semibold text-lg">
               Product Price :
             </span>{" "}
-            ${single.price}
+            ${single?.price}
           </p>
           <div>
             <p className="text-secondary font-bold text-xl">Description:</p>
-            <p className="w-1/2 leading-snug">{single.desc}</p>
+            <p className="md:w-1/2 w-full text-sm md:text-xs leading-snug">{single?.desc}</p>
           </div>
           <button
             onClick={() => onAdd(single)}
